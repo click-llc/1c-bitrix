@@ -1,9 +1,9 @@
 <?php
 
-$MESS['ERROR_USER_DOES_NOT_EXISTS']       = 'Íå íàéäåò ïîëüçîâàòåëü/çàêàç';
-$MESS['ERROR_IN_REQUEST_FROM_CLICK']      = 'Îøèáêà â çàïðîñå îò CLICK';
-$MESS['ERROR_SIGN_CHECK']                 = 'ÎØÈÁÊÀ ÏÐÎÂÅÐÊÈ ÏÎÄÏÈÑÈ!';
-$MESS['ERROR_ALREADY_PAID']               = 'Òðàíçàêöèÿ ðàíåå áûëà ïîäòâåðæäåíà';
-$MESS['ERROR_INCORRECT_AMOUNT']           = 'Íåâåðíàÿ ñóììà îïëàòû';
-$MESS['ERROR_UPDATE_FAILED']              = 'Îøèáêà ïðè èçìåíåíèè äàííûõ';
-$MESS['ERROR_TRANSACTION_DOES_NOT_EXIST'] = 'Íå íàéäåíà òðàíçàêöèÿ';
+$MESS['ERROR_USER_DOES_NOT_EXISTS']       = 'ÐÐµ Ð½Ð°Ð¹Ð´ÐµÑ‚ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒ/Ð·Ð°ÐºÐ°Ð·';
+$MESS['ERROR_IN_REQUEST_FROM_CLICK']      = 'ÐžÑˆÐ¸Ð±ÐºÐ° Ð² Ð·Ð°Ð¿Ñ€Ð¾ÑÐµ Ð¾Ñ‚ CLICK';
+$MESS['ERROR_SIGN_CHECK']                 = 'ÐžÐ¨Ð˜Ð‘ÐšÐ ÐŸÐ ÐžÐ’Ð•Ð ÐšÐ˜ ÐŸÐžÐ”ÐŸÐ˜Ð¡Ð˜!';
+$MESS['ERROR_ALREADY_PAID']               = 'Ð¢Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ Ñ€Ð°Ð½ÐµÐµ Ð±Ñ‹Ð»Ð° Ð¿Ð¾Ð´Ñ‚Ð²ÐµÑ€Ð¶Ð´ÐµÐ½Ð°';
+$MESS['ERROR_INCORRECT_AMOUNT']           = 'ÐÐµÐ²ÐµÑ€Ð½Ð°Ñ ÑÑƒÐ¼Ð¼Ð° Ð¾Ð¿Ð»Ð°Ñ‚Ñ‹';
+$MESS['ERROR_UPDATE_FAILED']              = 'ÐžÑˆÐ¸Ð±ÐºÐ° Ð¿Ñ€Ð¸ Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ð¸ Ð´Ð°Ð½Ð½Ñ‹Ñ…';
+$MESS['ERROR_TRANSACTION_DOES_NOT_EXIST'] = 'ÐÐµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð° Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ';

@@ -1,10 +1,10 @@
 <?php
 
-$MESS['CLICK_UZ_NAME']             = 'CLICK Óçáåêèñòàí';
-$MESS['CLICK_UZ_MERCHANT_ID']      = 'Íîìåð ïîñòàâùèêà (MERCHANT_ID)';
-$MESS['CLICK_UZ_MERCHANT_USER_ID'] = 'Íîìåð ïîëüçîâàòåëÿ ïîñòàâùèêà (MERCHANT_USER_ID)';
-$MESS['CLICK_UZ_SERVICE_ID']       = 'Íîìåð ñåðâèñà (SERVICE_ID)';
-$MESS['CLICK_UZ_SECRET_KEY']       = 'Ñåêðåòíûé êëþ÷ (SECRET_KEY)';
-$MESS['CLICK_UZ_USE_POPUP']        = 'Èñïîëüçîâàòü âñïëûâàþùóþ ôîðìó îïëàòû íà ñòðàíèöàõ ìàãàçèíà.';
-$MESS['CLICK_UZ_PREPARE_URL']      = 'Àäðåñ ïðîâåðêè (prepare url)';
-$MESS['CLICK_UZ_COMPLETE_URL']     = 'Àäðåñ ðåçóëüòàòà (complete url)';
+$MESS['CLICK_UZ_NAME']             = 'CLICK Ð£Ð·Ð±ÐµÐºÐ¸ÑÑ‚Ð°Ð½';
+$MESS['CLICK_UZ_MERCHANT_ID']      = 'ÐÐ¾Ð¼ÐµÑ€ Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ° (MERCHANT_ID)';
+$MESS['CLICK_UZ_MERCHANT_USER_ID'] = 'ÐÐ¾Ð¼ÐµÑ€ Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»Ñ Ð¿Ð¾ÑÑ‚Ð°Ð²Ñ‰Ð¸ÐºÐ° (MERCHANT_USER_ID)';
+$MESS['CLICK_UZ_SERVICE_ID']       = 'ÐÐ¾Ð¼ÐµÑ€ ÑÐµÑ€Ð²Ð¸ÑÐ° (SERVICE_ID)';
+$MESS['CLICK_UZ_SECRET_KEY']       = 'Ð¡ÐµÐºÑ€ÐµÑ‚Ð½Ñ‹Ð¹ ÐºÐ»ÑŽÑ‡ (SECRET_KEY)';
+$MESS['CLICK_UZ_USE_POPUP']        = 'Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÑŒ Ð²ÑÐ¿Ð»Ñ‹Ð²Ð°ÑŽÑ‰ÑƒÑŽ Ñ„Ð¾Ñ€Ð¼Ñƒ Ð¾Ð¿Ð»Ð°Ñ‚Ñ‹ Ð½Ð° ÑÑ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°Ñ… Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½Ð°.';
+$MESS['CLICK_UZ_PREPARE_URL']      = 'ÐÐ´Ñ€ÐµÑ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸ (prepare url)';
+$MESS['CLICK_UZ_COMPLETE_URL']     = 'ÐÐ´Ñ€ÐµÑ Ñ€ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚Ð° (complete url)';
