@@ -9,7 +9,7 @@ Loc::loadMessages( __FILE__ );
 
 $popup = $params['CLICK_UZ_USE_POPUP'] == 'Y';
 
-$button_title      =  Loc::getMessage( 'SALE_HANDLERS_CLICK_UZ_DESCRIPTION' );
+$button_title      =  Loc::getMessage( 'SALE_HANDLERS_CLICK_UZ_BUTTON_PAID' );
 $merchantID        = $params['CLICK_UZ_MERCHANT_ID'];
 $merchantUserID    = $params['CLICK_UZ_MERCHANT_USER_ID'];
 $merchantServiceID = $params['CLICK_UZ_SERVICE_ID'];
