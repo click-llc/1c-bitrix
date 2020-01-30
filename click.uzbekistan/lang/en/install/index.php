@@ -1,10 +1,11 @@
 <?php
 
-$MESS['QIWI_KASSA_MODULE_NAME'] = 'QIWI Kassa';
-$MESS['QIWI_KASSA_MODULE_DESCRIPTION'] = <<<TEXT
-Payment with bank card, QIWI wallet and phone balance. Guaranteed security of your payments.
-To start working with the QIWI Kassa service you need to register a store (https://kassa.qiwi.com/pay/).
-Also, a demo stand is available for you (https://developer.qiwi.com/demo/en/).
+$MESS['CLICK_UZ_NAME']        = 'Click Узбекистан';
+$MESS['CLICK_UZ_MODULE_NAME']        = 'Click Узбекистан';
+$MESS['CLICK_UZ_MODULE_DESCRIPTION'] = <<<TEXT
+The CLICK system is a mobile banking system that allows you to pay by mobile phone for
+services of mobile operators, Internet providers and other companies; pay for goods in traditional and online stores;
+transfer money from card to card, and much more ..
 TEXT;
-$MESS['QIWI_KASSA_PARTNER_NAME'] = 'QIWI';
-$MESS['QIWI_KASSA_PARTNER_URI'] = 'https://kassa.qiwi.com';
+$MESS['CLICK_UZ_PARTNER_NAME']       = 'CLICK Узбекистан';
+$MESS['CLICK_UZ_PARTNER_URI']        = 'https://click.uz/';

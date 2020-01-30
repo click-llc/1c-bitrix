@@ -1,6 +1,6 @@
 <?php
 
-$MESS['CLICK_UZ_NAME']             = 'CLICK Узбекистан';
+$MESS['CLICK_UZ_NAME']             = 'CLICK Uzbekistan';
 $MESS['CLICK_UZ_MERCHANT_ID']      = 'Merchant ID';
 $MESS['CLICK_UZ_MERCHANT_USER_ID'] = 'Merchant user ID';
 $MESS['CLICK_UZ_SERVICE_ID']       = 'Service ID';
