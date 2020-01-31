@@ -1,6 +1,6 @@
 <?php
 
-$MESS['CLICK_UZ_NAME']        = 'Click ”збекистан';
+$MESS['CLICK_UZ_NAME']               = 'Click ”збекистан';
 $MESS['CLICK_UZ_MODULE_NAME']        = 'Click ”збекистан';
 $MESS['CLICK_UZ_MODULE_DESCRIPTION'] = <<<TEXT
 —истема ЂCLICKї Ц это система мобильного банкинга, позвол€юща€ производить оплату с мобильного телефона за 

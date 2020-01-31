@@ -108,9 +108,13 @@ class Click_UzbekistanHandler extends ServiceHandler {
             $result = $paymentClassName::getList($params);
             $data = $result->fetch() ?: array();
 
-            list( $orderId, $paymentId ) = $data;
+            $orderId = $data['ID'];
+            $paymentId = $data['ORDER_ID'];
 
             if ( ! $orderId ) {
+
+                $this->log('ERROR', $data);
+
                 $this->sendJsonResponse( [
                     'error'      => '-5',
                     'error_note' => Loc::getMessage( 'ERROR_USER_DOES_NOT_EXISTS' )
@@ -163,6 +167,7 @@ class Click_UzbekistanHandler extends ServiceHandler {
                     break;
             }
         } catch ( \Exception $ex ) {
+            $this->log('ERROR', array($ex->getMessage()) );
             $result->addError( new Error( $ex->getMessage(), $ex->getCode()) );
         }
 

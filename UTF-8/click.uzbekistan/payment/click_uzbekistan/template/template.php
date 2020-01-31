@@ -15,7 +15,7 @@ $merchantUserID    = $params['CLICK_UZ_MERCHANT_USER_ID'];
 $merchantServiceID = $params['CLICK_UZ_SERVICE_ID'];
 $transID           = $payment->getOrderId();
 $transAmount       = $payment->getSum();
-$returnURL         = '//' . $_SERVER['SERVER_NAME'] . '/personal/orders/' . $payment->getOrderId();
+$returnURL         = '//' . $_SERVER['SERVER_NAME'] . '/personal/order/';
 
 
 ?>
