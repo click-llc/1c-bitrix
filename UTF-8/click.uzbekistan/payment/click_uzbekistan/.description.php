@@ -40,15 +40,6 @@ $data = [
             'SORT'        => 120,
             'DESCRIPTION' => Loc::getMessage( 'CLICK_UZ_SERVICE_ID_DESC' ),
         ],
-        'CLICK_UZ_RETURN_URL'       => [
-            'NAME'        => Loc::getMessage( 'CLICK_UZ_RETURN_URL' ),
-            'SORT'        => 121,
-            'INPUT'       => [
-                'TYPE'     => 'STRING',
-                'VALUE'    => '//' . $_SERVER['SERVER_NAME'] . '/personal/order/',
-                'DISABLED' => 'Y',
-            ],
-        ],
 
         'CLICK_UZ_SECRET_KEY' => [
             'NAME'        => Loc::getMessage( 'CLICK_UZ_SECRET_KEY' ),
