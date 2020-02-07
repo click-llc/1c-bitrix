@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $MESS['SALE_HANDLERS_CLICK_UZ_DESCRIPTION']    = <<<HTML
 Услугу предоставляет сервис онлайн-платежей <b>&laquo;CLICK Узбекистан&raquo;</b>.<br /><br />Сумма к оплате по счету: 

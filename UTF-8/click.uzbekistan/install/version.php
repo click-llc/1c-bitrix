@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /** @var array $arModuleVersion Module version metadata. */
 $arModuleVersion = [

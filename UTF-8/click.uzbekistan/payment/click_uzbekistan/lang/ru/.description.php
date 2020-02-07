@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $MESS['CLICK_UZ_NAME']             = 'CLICK Узбекистан';
 $MESS['CLICK_UZ_MERCHANT_ID']      = 'Номер поставщика (MERCHANT_ID)';

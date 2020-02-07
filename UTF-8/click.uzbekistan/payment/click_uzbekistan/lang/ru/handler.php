@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $MESS['ERROR_USER_DOES_NOT_EXISTS']       = 'Не найдет пользователь/заказ';
 $MESS['ERROR_IN_REQUEST_FROM_CLICK']      = 'Ошибка в запросе от CLICK';

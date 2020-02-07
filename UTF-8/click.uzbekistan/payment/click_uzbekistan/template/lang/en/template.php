@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 
 $MESS['SALE_HANDLERS_CLICK_UZ_DESCRIPTION']    = <<<HTML

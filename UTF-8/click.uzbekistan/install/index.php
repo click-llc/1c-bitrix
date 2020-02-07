@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Localize file.
 IncludeModuleLangFile(__FILE__);
