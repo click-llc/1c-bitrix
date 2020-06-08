@@ -33,6 +33,21 @@ class click_uzbekistan extends CModule
      */
     public function DoInstall()
     {
+        global $DB;
+        $DB->Query("
+			CREATE TABLE `click_transactions` (
+					`ID` BIGINT(20)	UNSIGNED NOT NULL AUTO_INCREMENT,			
+                    `click_trans_id` BIGINT(20) UNSIGNED NOT NULL,
+                    `click_paydoc_id` BIGINT(20) UNSIGNED NOT NULL,
+                    `service_id` BIGINT(20) UNSIGNED NOT NULL,                    
+                    `merchant_trans_id` BIGINT(20) UNSIGNED NOT NULL,                    
+                    `amount`  DECIMAL(20, 2) NOT NULL,
+                    `error` BIGINT(20) UNSIGNED NOT NULL,
+                    `error_note` NVARCHAR(120),
+                    `action` tinyint(2),
+                    PRIMARY KEY (`ID`)
+                ) ENGINE=InnoDB;");
+
         $this->InstallFiles();
         RegisterModule($this->MODULE_ID);
         COption::SetOptionInt($this->MODULE_ID, 'delete', false);
@@ -154,19 +169,6 @@ class click_uzbekistan extends CModule
             }
         }
 
-        global $DB;
-        $DB->Query("
-			CREATE TABLE `click_transactions` (
-					`ID` BIGINT(20)	UNSIGNED NOT NULL AUTO_INCREMENT,			
-                    `click_trans_id` BIGINT(20) UNSIGNED NOT NULL,
-                    `click_paydoc_id` BIGINT(20) UNSIGNED NOT NULL,
-                    `service_id` BIGINT(20) UNSIGNED NOT NULL,                    
-                    `merchant_trans_id` BIGINT(20) UNSIGNED NOT NULL,                    
-                    `amount`  DECIMAL(20, 2) NOT NULL,
-                    `error` BIGINT(20) UNSIGNED NOT NULL,
-                    `error_note` NVARCHAR(120),
-                    `action` tinyint(2),
-                    PRIMARY KEY (`ID`)
-                ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;");
+
     }
 }
