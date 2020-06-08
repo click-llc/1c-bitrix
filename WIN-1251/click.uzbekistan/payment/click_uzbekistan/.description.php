@@ -23,7 +23,7 @@ if( ! function_exists('cur_url') ) {
 $data = [
     'NAME'         => Loc::getMessage( 'CLICK_UZ_NAME' ),
     'SORT'         => 750,
-    'IS_AVAILABLE' => function_exists( 'curl_version' ),
+    'IS_AVAILABLE' => true,
     'CODES'        => [
         'CLICK_UZ_MERCHANT_ID'      => [
             'NAME'        => Loc::getMessage( 'CLICK_UZ_MERCHANT_ID' ),

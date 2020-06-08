@@ -35,7 +35,7 @@ class click_uzbekistan extends CModule
     {
         global $DB;
         $DB->Query("
-			CREATE TABLE `click_transactions` (
+			CREATE TABLE IF NOT EXISTS `click_transactions` (
 					`ID` BIGINT(20)	UNSIGNED NOT NULL AUTO_INCREMENT,			
                     `click_trans_id` BIGINT(20) UNSIGNED NOT NULL,
                     `click_paydoc_id` BIGINT(20) UNSIGNED NOT NULL,
