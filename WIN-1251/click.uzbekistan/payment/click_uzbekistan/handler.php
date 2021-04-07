@@ -1,5 +1,4 @@
 <?php
-
 namespace Sale\Handlers\PaySystem;
 
 use Bitrix\Main\Error;
