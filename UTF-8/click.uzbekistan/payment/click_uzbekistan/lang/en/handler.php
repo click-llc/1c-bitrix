@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $MESS['ERROR_USER_DOES_NOT_EXISTS']       = 'User does not exist';
 $MESS['ERROR_IN_REQUEST_FROM_CLICK']      = 'Error in request from click';

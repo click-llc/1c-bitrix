@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+
 namespace Sale\Handlers\PaySystem;
 
 use Bitrix\Main\Error;
@@ -366,10 +367,11 @@ class Click_UzbekistanHandler extends ServiceHandler {
      *
      */
     public function sendJsonResponse( $data = [], $code = 200 ) {
+        ob_end_clean();
         http_response_code( $code );
-        header( 'Content-Type: application/json' );
+        header( 'Content-Type: application/json; charset=utf-8' );
         header( 'Pragma: no-cache' );
-        die( Json::encode( $data ) );
+        die( json_encode( $data ) );
     }
 
     /**

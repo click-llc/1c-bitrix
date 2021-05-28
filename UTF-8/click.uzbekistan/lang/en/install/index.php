@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $MESS['CLICK_UZ_NAME']               = 'Click Uzbekistan';
 $MESS['CLICK_UZ_MODULE_NAME']        = 'Click Uzbekistan';
