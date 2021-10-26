@@ -1,5 +1,5 @@
 # 1C-Bitrix Module
-Click Uzbekistan module for 1C Bitrix
+Модуль для интеграции платежной системы Click Узбекистан для 1C Bitrix
 
 1. Перейдите на папку кодировки который запущен ваша версия Битрикса (UTF-8 или WIN-1251)
 2. Скопируйте папку click.uzbekistan в папку bitrix/modules/
